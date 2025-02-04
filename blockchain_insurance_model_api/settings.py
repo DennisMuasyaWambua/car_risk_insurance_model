@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vpptt3(1$opkt$ele4-k@ijs*-s5(r!+y10+_tc%rmylx4uwfu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['carriskinsurancemodel-production.up.railway.app']
 
 
 # Application definition
