@@ -26,6 +26,8 @@ class DriverRiskView(APIView):
              prediction = predict_risk(input)
              prediction_percentage = prediction[0]*100
              return Response({"risk": prediction_percentage})
+          else:
+                return Response(serializer.errors, status=400)
 
 
              
